@@ -34,4 +34,5 @@ RUN \
 # Drop to regular user
 USER $USERNAME
 
+# See entrypoint.sh for environment variable support.
 ENTRYPOINT [ "/entrypoint.sh" ]
